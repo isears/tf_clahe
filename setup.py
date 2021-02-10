@@ -15,7 +15,7 @@ test_require = [
 
 setuptools.setup(
     name="tf_clahe",
-    version="0.0.1",
+    version="0.0.2",
     author="Isaac Sears",
     author_email="is6gc@virginia.edu",
     description="Contrast limited adaptive histogram equalization implemented in TF ops",

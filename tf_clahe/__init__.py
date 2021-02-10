@@ -5,6 +5,8 @@ import tensorflow as tf
 from tensorflow_addons.image.utils import to_4D_image, from_4D_image
 from tensorflow_addons.utils.types import TensorLike, Number
 
+__version__ = '0.0.2'
+
 
 def _clahe(
         image: TensorLike, clip_limit: Number, tile_grid_size: Union[List[int], Tuple[int]]
