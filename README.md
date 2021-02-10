@@ -1,5 +1,7 @@
 # Tensorflow CLAHE
 
+![Test](https://github.com/isears/tf_clahe/workflows/test/badge.svg)
+
 Contrast-limited adaptive histogram equalization implemented in tensorflow ops.
 
 ## Setup
