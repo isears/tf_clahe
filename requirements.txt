@@ -1,0 +1,4 @@
+pytest
+tensorflow
+tensorflow_addons
+numpy
