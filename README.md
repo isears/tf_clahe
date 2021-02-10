@@ -1,6 +1,6 @@
 # Tensorflow CLAHE
 
-![Test](https://github.com/isears/tf_clahe/workflows/test/badge.svg)
+![Python package](https://github.com/isears/tf_clahe/workflows/Python%20package/badge.svg)
 
 Contrast-limited adaptive histogram equalization implemented in tensorflow ops.
 
