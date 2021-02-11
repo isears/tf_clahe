@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow_addons.image.utils import to_4D_image, from_4D_image
 from tensorflow_addons.utils.types import TensorLike, Number
 
-__version__ = '0.0.2'
+__version__ = '0.1.0'
 
 
 def _clahe(
