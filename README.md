@@ -17,7 +17,12 @@ import tensorflow as tf
 import tf_clahe
 
 img = tf.io.decode_image(tf.io.read_file('./path/to/your/img'))
+
+# With sane defaults (8x8 tiling and 4.0 clip limit)
 img_clahe = tf_clahe.clahe(img)
+
+# With custom parameters (4x4 tiling and 3.0 clip limit)
+img_clahe = tf_clahe.clahe(img, tile_grid_size=(4, 4), clip_limit=3.0)
 ```
 ![sidebyside example](./example.png)
 
